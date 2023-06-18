@@ -81,9 +81,27 @@ hr {
 /* General overall container and itme class */
 .container {
   display: flex;
-  align-items: center;
 }
 
 .item {
   flex: 1;
+}
+
+/* Setting the styler rules for Navigation section */
+.nav_sec {
+  align-items: center;
+}
+
+/* Setting the rules for the about section */
+
+
+
+/* Setting the style rules for the portfolio portion of the page */
+.portfolio_sec {
+  margin: 10px;
+  text-align: cente;
+}
+
+.portfolio_sec p {
+  font-size: 14px;
 }

@@ -15,7 +15,7 @@
     <!-- Header section -->
 
     <!-- Setting up initial navigaition container along with individual Items assigned to general itme class-->
-    <header class="container">
+    <header class="container nav_sec">
       <h1 class="item">Pete Thinkful | Artist</h1>
       <nav>
         <a href="#about" class="item">About</a>
@@ -30,10 +30,10 @@
         <article id="about">
           <h2>About</h2>
           <section>
-            <h3>Hi! I'm Pete Thinkful</h3>
+            <h3 class="itemabout_sec">Hi! I'm Pete Thinkful</h3>
             <div>
               <img
-                class="image-circle"
+                class="image-circle "
                 src="images/pete-thinkful.png"
                 alt="Pete Thinkful"
               />
@@ -71,7 +71,9 @@
         <!-- Portfolio section -->
         <article id="portfolio">
           <h2>Portfolio</h2>
-          <section>
+          <!-- Container div setup to contain the three main sections of portfolio to allow for each to be added to the contaier. -->
+          <div class="container">
+          <section class="item portfolio_sec">
             <h3>Abstract Red</h3>
             <div>
               <img src="images/abstract-red.png" alt="Abstract Red" />
@@ -82,7 +84,7 @@
             </p>
           </section>
 
-          <section>
+          <section class="item portfolio_sec">
             <h3>Spiral Zany</h3>
             <div>
               <img src="images/spiral-zany.png" alt="Spiral Zany" />
@@ -93,7 +95,7 @@
             </p>
           </section>
 
-          <section>
+          <section class="item portfolio_sec">
             <h3>Melted Rainbow</h3>
             <div>
               <img src="images/melted-rainbow.png" alt="Melted Rainbow" />
@@ -103,6 +105,7 @@
               locavore shabby chic forage.
             </p>
           </section>
+          </div>
         </article>
 
         <hr />
