@@ -19,7 +19,6 @@ h3 {
 /* Header */
 header {
   text-align: center;
-  width: 600px;
 }
 
 /* Containers */
@@ -90,7 +89,9 @@ hr {
 
 /* Setting the styler rules for Navigation section */
 .nav_sec {
-  align-items: center;
+ align-items: center;
+ max-width: 600px;
+ margin: auto;
 }
 
 /* Setting the rules for the about section */
