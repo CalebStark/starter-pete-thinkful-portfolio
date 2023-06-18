@@ -76,3 +76,14 @@ footer {
 hr {
   border: 1px solid black;
 }
+
+/* Setting up Flex box Container and Item Rules */
+/* General overall container and itme class */
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.item {
+  flex: 1;
+}
