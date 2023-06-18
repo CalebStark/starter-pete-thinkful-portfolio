@@ -19,6 +19,7 @@ h3 {
 /* Header */
 header {
   text-align: center;
+  width: 600px;
 }
 
 /* Containers */
@@ -93,8 +94,15 @@ hr {
 }
 
 /* Setting the rules for the about section */
+.about_sec {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
 
-
+.about_sec .item {
+  margin: 5px;
+}
 
 /* Setting the style rules for the portfolio portion of the page */
 .portfolio_sec {
